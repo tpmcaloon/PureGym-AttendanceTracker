@@ -53,4 +53,4 @@ class PuregymAPIClient():
 client = PuregymAPIClient()
 client.login(email, pin)
 client.get_home_gym()
-print("Memebers in the gym: ", client.get_gym_attendance())
+print("Members in the gym: ", client.get_gym_attendance())
