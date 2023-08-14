@@ -6,7 +6,7 @@ puregym-attendance is a Python client to query the PureGym Mobile API for live g
 
 ```python
 client = PuregymAPIClient()
-client.login(tpmcaloon98@gmail.com, 47757275)
+client.login([username], [pin])
 print(client.get_gym_attendance())
 ```
 
